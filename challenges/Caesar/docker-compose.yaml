@@ -1,0 +1,8 @@
+version: "3.8"
+
+services:
+  caesar:
+    build: .
+    container_name: caesar-challenge
+    stdin_open: true
+    tty: true
